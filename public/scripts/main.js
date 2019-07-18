@@ -5,15 +5,9 @@
  const callbacks = {
     onUpdate(state) {
         console.log('onUpdate', JSON.stringify(state));
-        if ('LebronJames' in state) {
-            playerStat.src = "public/img/lebronStat.png";
-        }
-        if ('DurantKevin' in state) {
-            playerStat.setAttribute("src", "https://pbs.twimg.com/media/C2_0eG6W8AANfbk.jpg");
-        }
-        if ('HardenJames' in state) {
-            playerStat.setAttribute("src", "https://assets.sport.francetvinfo.fr/sites/default/files/styles/large_16_9/public/2019-01/063_1124314324.jpg?h=20a5823a&itok=Q3H0PKq_");
-        }
+        if ('LebronJames' in state) playerStat.src = "../../public/assets/imgs/lebron-stats.jpg";
+        if ('DurantKevin' in state) playerStat.src = "../../public/assets/imgs/durant-stats.jpg"
+        if ('HardenJames' in state) playerStat.src = "../../public/assets/imgs/harden-stats.jpg"
     },
  };
  assistantCanvas.ready(callbacks);

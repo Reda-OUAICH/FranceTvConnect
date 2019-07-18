@@ -51,6 +51,7 @@ const appIntent = (intent, ask, responseOptions) => app.intent(intent, conv => {
 appIntent('Welcome', asks.welcome, {
     url: `https://${firebaseConfig.projectId}.firebaseapp.com`,
 });
+appIntent('Instructions', asks.instructions, {});
 
 // ===== PLAYERS =====
 appIntent('LebronJames', asks.lebron, {
