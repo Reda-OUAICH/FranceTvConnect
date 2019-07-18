@@ -32,22 +32,24 @@ app.intent('welcome', (conv) => {
     url: `https://${firebaseConfig.projectId}.firebaseapp.com`,
   }));
 });
+
 app.intent('LebronJames', (conv) => {
   conv.ask(`Voici les informations sur Lebron James !`);
   conv.ask(new ImmersiveResponse({
     url: `https://${firebaseConfig.projectId}.firebaseapp.com`,
     state: {
-      lebron: true,
+      start: true,
     },
   }
 ));
 });
+
 app.intent('HardenJames', (conv) => {
   conv.ask(`Voici les informations sur Harden James !`);
   conv.ask(new ImmersiveResponse({
     url: `https://${firebaseConfig.projectId}.firebaseapp.com`,
     state: {
-      harden: true,
+      start: true,
     },
   }
 ));
@@ -57,7 +59,7 @@ app.intent('DurantKevin', (conv) => {
   conv.ask(new ImmersiveResponse({
     url: `https://${firebaseConfig.projectId}.firebaseapp.com`,
     state: {
-      durant: true,
+      start: true,
     },
   }
 ));
