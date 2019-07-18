@@ -19,21 +19,33 @@
 const functions = require('firebase-functions');
 const { dialogflow, ImmersiveResponse } = require('actions-on-google');
 
-const firebaseConfig = {
-    projectId: 'france-tv-connect-axdfhn'
-};
+const firebaseConfig = { projectId: 'france-tv-connect-axdfhn' };
 
 const app = dialogflow({ debug: true });
 
+const asks = {
+    welcome: 'Pour accéder aux instructions: dites "Instructions".',
+    instructions: `
+        Pour voir la fiche technique d'un joueur, dites: "Fiche technique de Lebron James".
+        Pour cacher la fiche technique, dites: "Cacher la fiche technique"
+        
+        Pour afficher le tchat, dites: "Affiche le tchat".
+        Pour cacher le tchat, dites: "Cache le tchat".
+    `,
+    lebron: 'Voici la fiche technique de Lebron James:',
+    harden: 'Voici la fiche technique de Harden James:',
+    durant: 'Voici la fiche technique de Durant Kevin:'
+}
+
 app.intent('Welcome', conv => {
-    conv.ask('Pour accéder aux instructions: dites "Instructions".');
+    conv.ask(asks.welcome);
     conv.ask(new ImmersiveResponse({
         url: `https://${firebaseConfig.projectId}.firebaseapp.com`,
     }));
 });
 
 app.intent('LebronJames', conv => {
-    conv.ask(`Voici les informations sur Lebron James !`);
+    conv.ask(asks.lebron);
     conv.ask(new ImmersiveResponse({
         state: {
             LebronJames: true,
@@ -42,7 +54,7 @@ app.intent('LebronJames', conv => {
 });
 
 app.intent('HardenJames', (conv) => {
-    conv.ask(`Voici les informations sur Harden James !`);
+    conv.ask(asks.harden);
     conv.ask(new ImmersiveResponse({
         state: {
             HardenJames: true,
@@ -50,7 +62,7 @@ app.intent('HardenJames', (conv) => {
     }));
 });
 app.intent('DurantKevin', (conv) => {
-    conv.ask(`Voici les informations sur Kevin Durant !`);
+    conv.ask(asks.durant);
     conv.ask(new ImmersiveResponse({
         state: {
             DurantKevin: true,
