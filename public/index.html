@@ -14,10 +14,12 @@
     <script defer src="/__/firebase/6.3.0/firebase-storage.js"></script>
     <!-- initialize the SDK after all desired features are loaded -->
     <script defer src="/__/firebase/init.js"></script>
+    <!-- Load Assistant Canvas CSS and JavaScript -->
+    <link rel="stylesheet" href="https://www.gstatic.com/assistant/immersivecanvas/css/styles.css">
+    <script src="https://www.gstatic.com/assistant/immersivecanvas/js/immersive_canvas_api.js"></script>
   </head>
   <body>
-    <img id="playerStat" style="height:500px; width: auto" src="https://pbs.twimg.com/media/C2_0eG6W8AANfbk.jpg"
-      alt="Statistique">
+    <img id="playerStat" style="height:500px; width: auto" src="" alt="Statistique">
 
 
     <!-- <section id="chat" class="chat_hidden">
@@ -30,28 +32,6 @@
         </iframe>
     </section> -->
 
-    <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
-        // // The Firebase SDK is initialized and available here!
-        //
-        // firebase.auth().onAuthStateChanged(user => { });
-        // firebase.database().ref('/path/to/ref').on('value', snapshot => { });
-        // firebase.messaging().requestPermission().then(() => { });
-        // firebase.storage().ref('/path/to/ref').getDownloadURL().then(() => { });
-        //
-        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
-
-        try {
-          let app = firebase.app();
-          let features = ['auth', 'database', 'messaging', 'storage'].filter(feature => typeof app[feature] === 'function');
-          document.getElementById('load').innerHTML = `Firebase SDK loaded with ${features.join(', ')}`;
-        } catch (e) {
-          console.error(e);
-          document.getElementById('load').innerHTML = 'Error loading the Firebase SDK, check the console.';
-        }
-      });
-    </script>
     <script src="js/main.js"></script>
   </body>
 </html>
