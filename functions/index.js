@@ -37,37 +37,39 @@ const asks = {
     durant: 'Voici la fiche technique de Durant Kevin:'
 }
 
+const intentResponse = options => conv.ask(new ImmersiveResponse(options));
+
 app.intent('Welcome', conv => {
     conv.ask(asks.welcome);
-    conv.ask(new ImmersiveResponse({
+    intentResponse({
         url: `https://${firebaseConfig.projectId}.firebaseapp.com`,
-    }));
+    })
 });
 
 app.intent('LebronJames', conv => {
     conv.ask(asks.lebron);
-    conv.ask(new ImmersiveResponse({
+    intentResponse({
         state: {
             LebronJames: true,
-        },
-    }));
+        }
+    })    
 });
 
 app.intent('HardenJames', (conv) => {
     conv.ask(asks.harden);
-    conv.ask(new ImmersiveResponse({
+    intentResponse({
         state: {
             HardenJames: true,
-        },
-    }));
+        }
+    })  
 });
 app.intent('DurantKevin', (conv) => {
     conv.ask(asks.durant);
-    conv.ask(new ImmersiveResponse({
+    intentResponse({
         state: {
             DurantKevin: true,
-        },
-    }));
+        }
+    })  
 });
   // app.intent('displayChat', (conv) => {
   //   conv.ask(`chat displayed:`);
