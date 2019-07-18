@@ -40,11 +40,9 @@ const asks = {
     hidePlayerSheet: 'la fiche technique a été cachée'
 }
 
-const intentResponse = options => conv.ask(new ImmersiveResponse(options));
-
 const appIntent = (intent, ask, responseOptions) => app.intent(intent, conv => {
     conv.ask(ask);
-    intentResponse(responseOptions)
+    conv.ask(new ImmersiveResponse(responseOptions));
 });
 
 // ===== TEXTS =====

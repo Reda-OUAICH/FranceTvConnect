@@ -1,5 +1,5 @@
- var welcomePage = document.getElementsByClassName("welcomePage");
- var playerStat = document.getElementById("playerStat");
+ const welcomePage = document.querySelector("#welcomePage");
+ const playerStat = document.querySelector("#playerStat");
 
  // register assistant canvas callbacks
  const callbacks = {
