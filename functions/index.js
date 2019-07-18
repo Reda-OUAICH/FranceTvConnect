@@ -26,7 +26,7 @@ const firebaseConfig = {
 const app = dialogflow({ debug: true });
 
 app.intent('Welcome', conv => {
-    conv.ask('Bienvenue sur FranceTV Connect ! Dites "Instructions" pour plus d"information ');
+    conv.ask('Pour accéder aux instructions: dites "Instructions".');
     conv.ask(new ImmersiveResponse({
         url: `https://${firebaseConfig.projectId}.firebaseapp.com`,
     }));
