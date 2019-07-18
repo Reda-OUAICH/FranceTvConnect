@@ -20,21 +20,22 @@ const functions = require('firebase-functions');
 const { dialogflow, ImmersiveResponse } = require('actions-on-google');
 
 const firebaseConfig = {
-  projectId: 'france-tv-connect-axdfhn'
+    projectId: 'france-tv-connect-axdfhn'
 };
 
 const app = dialogflow({ debug: true });
 
 app.intent('Welcome', conv => {
-  conv.ask('Bienvenue sur FranceTV Connect ! Dites "Instructions" pour plus d"information ');
-  conv.ask(new ImmersiveResponse({
-    url: `https://${firebaseConfig.projectId}.firebaseapp.com`,
-  }));
+    conv.ask('Bienvenue sur FranceTV Connect ! Dites "Instructions" pour plus d"information ');
+    conv.ask(new ImmersiveResponse({
+        url: `https://${firebaseConfig.projectId}.firebaseapp.com`,
+    }));
 });
 
 app.intent('LebronJames', conv => {
     conv.ask(`Voici les informations sur Lebron James !`);
     conv.ask(new ImmersiveResponse({
+        url: `https://${firebaseConfig.projectId}.firebaseapp.com`,
         state: {
             start: true,
         },
@@ -44,6 +45,7 @@ app.intent('LebronJames', conv => {
 app.intent('HardenJames', (conv) => {
     conv.ask(`Voici les informations sur Harden James !`);
     conv.ask(new ImmersiveResponse({
+        url: `https://${firebaseConfig.projectId}.firebaseapp.com`,
         state: {
             start: true,
         },
@@ -52,8 +54,9 @@ app.intent('HardenJames', (conv) => {
 app.intent('DurantKevin', (conv) => {
     conv.ask(`Voici les informations sur Kevin Durant !`);
     conv.ask(new ImmersiveResponse({
+        url: `https://${firebaseConfig.projectId}.firebaseapp.com`,
         state: {
-            start: true,
+            durant: true,
         },
     }));
 });
