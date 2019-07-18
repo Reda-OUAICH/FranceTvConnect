@@ -19,13 +19,6 @@
 const functions = require('firebase-functions');
 const {dialogflow, ImmersiveResponse} = require('actions-on-google');
 
-// map of human speakable colors to color values
-const tints = {
-  red: 0xFF0000,
-  green: 0x00FF00,
-  blue: 0x0000FF,
-};
-
 const firebaseConfig = {
   projectId: 'france-tv-connect-axdfhn'
 };
@@ -39,7 +32,16 @@ app.intent('welcome', (conv) => {
     url: `https://${firebaseConfig.projectId}.firebaseapp.com`,
   }));
 });
-
+app.intent('start', (conv) => {
+  conv.ask(`Ok, tiens un gros chat !`);
+  conv.ask(new ImmersiveResponse({
+    url: `https://${firebaseConfig.projectId}.firebaseapp.com`,
+    state: {
+      start: true,
+    },
+  }
+));
+});
 // app.intent('fallback', (conv) => {
 //   conv.ask(`I don't understand. You can change my color or pause spinning.`);
 //   conv.ask(new ImmersiveResponse({
