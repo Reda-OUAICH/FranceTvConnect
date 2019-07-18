@@ -1,4 +1,4 @@
-var welcomePage = document.getElementsByClassName("welcomePage")
+ var welcomePage = document.getElementsByClassName("welcomePage");
  var playerStat = document.getElementById("playerStat");
 
  // register assistant canvas callbacks
@@ -9,8 +9,7 @@ var welcomePage = document.getElementsByClassName("welcomePage")
             // start = state.start;
         }
         if ('LebronJames' in state) {
-          console.log('it work');
-            playerStat.setAttribute("src", "../img/lebronStat.png");
+            playerStat.src = "public/img/lebronStat.png";
             // start = state.start;
         }
         if ('DurantKevin' in state) {
