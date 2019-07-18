@@ -1,0 +1,33 @@
+{
+  "id": "de616abf-b95d-4d0f-8d14-8fbf900461b9",
+  "name": "LebronJames",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "fb1c66b8-d227-4435-a6cb-4b1c4c24cbba",
+          "required": false,
+          "dataType": "@players",
+          "name": "players",
+          "value": "$players",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "isList": false
+        }
+      ],
+      "messages": [],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

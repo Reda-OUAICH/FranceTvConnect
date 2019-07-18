@@ -1,0 +1,82 @@
+[
+  {
+    "id": "06c00433-3c55-4e24-8e8e-40d96bb051ff",
+    "data": [
+      {
+        "text": "Informations sur ",
+        "userDefined": false
+      },
+      {
+        "text": "Durant",
+        "alias": "players",
+        "meta": "@players",
+        "userDefined": false
+      },
+      {
+        "text": " Jevin",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f977dc63-d26c-4152-b9e7-36e958cac2b3",
+    "data": [
+      {
+        "text": "Infos sur ",
+        "userDefined": false
+      },
+      {
+        "text": "Durant",
+        "alias": "players",
+        "meta": "@players",
+        "userDefined": false
+      },
+      {
+        "text": " Jevin",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d6f7c431-737e-4b65-9876-a1256160af6e",
+    "data": [
+      {
+        "text": "Informations sur ",
+        "userDefined": false
+      },
+      {
+        "text": "Durant",
+        "alias": "players",
+        "meta": "@players",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "257c8fd7-c806-4897-b2ad-a6dd05b7a94e",
+    "data": [
+      {
+        "text": "Infos sur ",
+        "userDefined": false
+      },
+      {
+        "text": "Durant",
+        "alias": "players",
+        "meta": "@players",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

@@ -1,0 +1,33 @@
+{
+  "id": "25c86063-4f60-496f-97a1-11e5fe1ca4bf",
+  "name": "DurantKevin",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "c25339c5-ad1b-4c9c-a24f-451ca7edba5f",
+          "required": false,
+          "dataType": "@players",
+          "name": "players",
+          "value": "$players",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "isList": false
+        }
+      ],
+      "messages": [],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

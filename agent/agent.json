@@ -14,10 +14,40 @@
       {
         "intentId": "2b0e85d9-c20e-4cbc-bb77-f225d359cda5",
         "signInRequired": false
+      },
+      {
+        "intentId": "d3a214d0-d918-4090-95f6-b44b398b27d0",
+        "signInRequired": false
+      },
+      {
+        "intentId": "9154336e-d091-4814-bc6b-02c84552bec4",
+        "signInRequired": false
+      },
+      {
+        "intentId": "8874b573-3e48-47aa-a16a-137aa65cf47e",
+        "signInRequired": false
+      },
+      {
+        "intentId": "25c86063-4f60-496f-97a1-11e5fe1ca4bf",
+        "signInRequired": false
+      },
+      {
+        "intentId": "be343e4a-ed5a-4f8b-870d-137f1c472785",
+        "signInRequired": false
+      },
+      {
+        "intentId": "de616abf-b95d-4d0f-8d14-8fbf900461b9",
+        "signInRequired": false
+      },
+      {
+        "intentId": "e6d8a3e1-7745-4790-be43-f0de55b04c3e",
+        "signInRequired": false
       }
     ],
     "systemIntents": [],
-    "endIntentIds": [],
+    "endIntentIds": [
+      "9154336e-d091-4814-bc6b-02c84552bec4"
+    ],
     "oAuthLinking": {
       "required": false,
       "providerId": "",
@@ -31,15 +61,17 @@
     "capabilities": [],
     "env": "",
     "protocolVersion": "V2",
-    "autoPreviewEnabled": false,
+    "autoPreviewEnabled": true,
     "isDeviceAgent": false
   },
   "defaultTimezone": "Europe/Madrid",
   "webhook": {
-    "url": "",
+    "url": "https://us-central1-france-tv-connect-axdfhn.cloudfunctions.net/dialogflowFirebaseFulfillment",
     "username": "",
-    "headers": {},
-    "available": false,
+    "headers": {
+      "": ""
+    },
+    "available": true,
     "useForDomains": false,
     "cloudFunctionsEnabled": false,
     "cloudFunctionsInitialized": false

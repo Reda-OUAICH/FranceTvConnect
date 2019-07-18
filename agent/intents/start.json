@@ -1,6 +1,6 @@
 {
-  "id": "2b0e85d9-c20e-4cbc-bb77-f225d359cda5",
-  "name": "Default Player Intent",
+  "id": "e6d8a3e1-7745-4790-be43-f0de55b04c3e",
+  "name": "start",
   "auto": true,
   "contexts": [],
   "responses": [
@@ -12,7 +12,7 @@
         {
           "type": 0,
           "lang": "fr",
-          "speech": "Voici des informations sur le joueur: $playerName"
+          "speech": []
         }
       ],
       "defaultResponsePlatforms": {},
@@ -20,7 +20,7 @@
     }
   ],
   "priority": 500000,
-  "webhookUsed": false,
+  "webhookUsed": true,
   "webhookForSlotFilling": false,
   "fallbackIntent": false,
   "events": []

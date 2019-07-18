@@ -1,0 +1,33 @@
+{
+  "id": "be343e4a-ed5a-4f8b-870d-137f1c472785",
+  "name": "HardenJames",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "e5f1e0b9-7c26-4a26-b330-72e0865338a9",
+          "required": false,
+          "dataType": "@players",
+          "name": "players",
+          "value": "$players",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "isList": false
+        }
+      ],
+      "messages": [],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

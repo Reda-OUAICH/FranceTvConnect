@@ -1,0 +1,74 @@
+[
+  {
+    "id": "50a22c66-f7c0-4509-b235-7c16577868da",
+    "data": [
+      {
+        "text": "Informations sur ",
+        "userDefined": false
+      },
+      {
+        "text": "Lebron James",
+        "alias": "players",
+        "meta": "@players",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "2041e2a2-a1d9-40cf-b672-37a1140be4f7",
+    "data": [
+      {
+        "text": "Infos sur ",
+        "userDefined": false
+      },
+      {
+        "text": "Lebron James",
+        "alias": "players",
+        "meta": "@players",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "5212a89d-1d87-48b8-848b-0358702b6bb7",
+    "data": [
+      {
+        "text": "Informations sur ",
+        "userDefined": false
+      },
+      {
+        "text": "Lebron",
+        "alias": "players",
+        "meta": "@players",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "9f7647dc-3105-4cac-b38b-f3599f6ca89c",
+    "data": [
+      {
+        "text": "Infos sur ",
+        "userDefined": false
+      },
+      {
+        "text": "Lebron",
+        "alias": "players",
+        "meta": "@players",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  }
+]
