@@ -1,5 +1,5 @@
 {
-  "description": "",
+  "description": "France TV Connect, le chat vocal des évènements sportifs",
   "language": "fr",
   "shortDescription": "",
   "examples": "",
@@ -41,6 +41,14 @@
       },
       {
         "intentId": "e6d8a3e1-7745-4790-be43-f0de55b04c3e",
+        "signInRequired": false
+      },
+      {
+        "intentId": "3b22b498-a4b0-4b28-9719-708069a0e053",
+        "signInRequired": false
+      },
+      {
+        "intentId": "c4595e76-a960-4fa3-9d19-04871cf23d65",
         "signInRequired": false
       }
     ],

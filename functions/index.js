@@ -25,9 +25,8 @@ const firebaseConfig = {
 
 const app = dialogflow({debug: true});
 
-app.intent('welcome', (conv) => {
-  conv.ask('Welcome! Do you want me to change color or pause spinning? ' +
-    'You can also tell me to ask you later.');
+app.intent('Welcome', (conv) => {
+  conv.ask('Bienvenue sur FranceTV Connect ! Dites "Instructions" pour plus d"information ');
   conv.ask(new ImmersiveResponse({
     url: `https://${firebaseConfig.projectId}.firebaseapp.com`,
   }));
@@ -36,7 +35,6 @@ app.intent('welcome', (conv) => {
 app.intent('LebronJames', (conv) => {
   conv.ask(`Voici les informations sur Lebron James !`);
   conv.ask(new ImmersiveResponse({
-    url: `https://${firebaseConfig.projectId}.firebaseapp.com`,
     state: {
       start: true,
     },
@@ -47,7 +45,6 @@ app.intent('LebronJames', (conv) => {
 app.intent('HardenJames', (conv) => {
   conv.ask(`Voici les informations sur Harden James !`);
   conv.ask(new ImmersiveResponse({
-    url: `https://${firebaseConfig.projectId}.firebaseapp.com`,
     state: {
       start: true,
     },
@@ -57,32 +54,31 @@ app.intent('HardenJames', (conv) => {
 app.intent('DurantKevin', (conv) => {
     conv.ask(`Voici les informations sur Kevin Durant !`);
     conv.ask(new ImmersiveResponse({
-      url: `https://${firebaseConfig.projectId}.firebaseapp.com`,
       state: {
         durant: true,
       },
     }
   ));
   });
-  app.intent('displayChat', (conv) => {
-    conv.ask(`chat displayed:`);
-    conv.ask(new ImmersiveResponse({
-      state: {
-        chat: true,
-      },
-    }
-  ));
-  });
+  // app.intent('displayChat', (conv) => {
+  //   conv.ask(`chat displayed:`);
+  //   conv.ask(new ImmersiveResponse({
+  //     state: {
+  //       chat: true,
+  //     },
+  //   }
+  // ));
+  // });
 
-  app.intent('hideChat', (conv) => {
-    conv.ask(`chat hidden:`);
-    conv.ask(new ImmersiveResponse({
-      state: {
-        chat: false,
-      },
-    }
-  ));
-  });
+  // app.intent('hideChat', (conv) => {
+  //   conv.ask(`chat hidden:`);
+  //   conv.ask(new ImmersiveResponse({
+  //     state: {
+  //       chat: false,
+  //     },
+  //   }
+  // ));
+  // });
 
 // app.intent('fallback', (conv) => {
 //   conv.ask(`I don't understand. You can change my color or pause spinning.`);

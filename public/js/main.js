@@ -1,4 +1,5 @@
  let start = true;
+ let paramSrc = true;
  
  var playerStat = document.getElementById("playerStat");
 
@@ -11,7 +12,7 @@
        start = state.start;
      }
       if ('DurantKevin' in state) {
-        playerStat.setAttribute("src", "https://pbs.twimg.com/media/C2_0eG6W8AANfbk.jpg");
+        playerStat.src = "https://pbs.twimg.com/media/C2_0eG6W8AANfbk.jpg";
         start = state.start;
       }
        if ('HardenJames' in state) {

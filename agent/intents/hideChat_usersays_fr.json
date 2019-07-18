@@ -1,0 +1,38 @@
+[
+  {
+    "id": "4efb8551-1810-4034-9d5c-8a001f16ed0c",
+    "data": [
+      {
+        "text": "chat off",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "034e58ef-dc9f-4a62-8083-7bb2e51300f6",
+    "data": [
+      {
+        "text": "éteint chat",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b32e92d6-cfaf-432c-bf3a-592a684d2805",
+    "data": [
+      {
+        "text": "ferme chat",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

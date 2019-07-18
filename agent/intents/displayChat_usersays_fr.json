@@ -1,0 +1,38 @@
+[
+  {
+    "id": "0778cd70-b5a9-4f55-bb17-8ed5902a2b0d",
+    "data": [
+      {
+        "text": "chat on",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f7cc4033-28bd-4bf7-b9fd-7ed314d66f63",
+    "data": [
+      {
+        "text": "démarre chat",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "da968814-f850-4570-9466-6685911adbf5",
+    "data": [
+      {
+        "text": "affiche chat",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]
