@@ -1,15 +1,15 @@
-//  let start = true;
-//  let paramSrc = true;
- 
+ var welcomePage = document.getElementsByClassName("welcomePage");
  var playerStat = document.getElementById("playerStat");
 
  // register assistant canvas callbacks
  const callbacks = {
     onUpdate(state) {
         console.log('onUpdate', JSON.stringify(state));
+        if ('Welcome' in state) {
+            // start = state.start;
+        }
         if ('LebronJames' in state) {
-          console.log('it work');
-            playerStat.setAttribute("src", "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
+            playerStat.src = "public/img/lebronStat.png";
             // start = state.start;
         }
         if ('DurantKevin' in state) {
