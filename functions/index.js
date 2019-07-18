@@ -55,6 +55,7 @@ app.intent('HardenJames', (conv) => {
 ));
 });
 app.intent('DurantKevin', (conv) => {
+<<<<<<< HEAD
   conv.ask(`Voici les informations sur Kevin Durant !`);
   conv.ask(new ImmersiveResponse({
     url: `https://${firebaseConfig.projectId}.firebaseapp.com`,
@@ -64,6 +65,36 @@ app.intent('DurantKevin', (conv) => {
   }
 ));
 });
+=======
+    conv.ask(`Voici les informations sur Kevin Durant !`);
+    conv.ask(new ImmersiveResponse({
+      url: `https://${firebaseConfig.projectId}.firebaseapp.com`,
+      state: {
+        durant: true,
+      },
+    }
+  ));
+  });
+  app.intent('displayChat', (conv) => {
+    conv.ask(`chat displayed:`);
+    conv.ask(new ImmersiveResponse({
+      state: {
+        chat: true,
+      },
+    }
+  ));
+  });
+
+  app.intent('hideChat', (conv) => {
+    conv.ask(`chat hidden:`);
+    conv.ask(new ImmersiveResponse({
+      state: {
+        chat: false,
+      },
+    }
+  ));
+  });
+>>>>>>> f1487afe6ceecb14156e6c4ba16e77a9ebaca283
 
 // app.intent('fallback', (conv) => {
 //   conv.ask(`I don't understand. You can change my color or pause spinning.`);
