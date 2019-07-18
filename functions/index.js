@@ -32,16 +32,37 @@ app.intent('welcome', (conv) => {
     url: `https://${firebaseConfig.projectId}.firebaseapp.com`,
   }));
 });
-app.intent('start', (conv) => {
-  conv.ask(`Ok, tiens un gros chat !`);
+app.intent('LebronJames', (conv) => {
+  conv.ask(`Voici les informations sur Lebron James !`);
   conv.ask(new ImmersiveResponse({
     url: `https://${firebaseConfig.projectId}.firebaseapp.com`,
     state: {
-      start: true,
+      lebron: true,
     },
   }
 ));
 });
+app.intent('HardenJames', (conv) => {
+  conv.ask(`Voici les informations sur Harden James !`);
+  conv.ask(new ImmersiveResponse({
+    url: `https://${firebaseConfig.projectId}.firebaseapp.com`,
+    state: {
+      harden: true,
+    },
+  }
+));
+});
+app.intent('DurantKevin', (conv) => {
+  conv.ask(`Voici les informations sur Kevin Durant !`);
+  conv.ask(new ImmersiveResponse({
+    url: `https://${firebaseConfig.projectId}.firebaseapp.com`,
+    state: {
+      durant: true,
+    },
+  }
+));
+});
+
 // app.intent('fallback', (conv) => {
 //   conv.ask(`I don't understand. You can change my color or pause spinning.`);
 //   conv.ask(new ImmersiveResponse({
