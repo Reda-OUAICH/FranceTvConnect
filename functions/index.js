@@ -34,84 +34,63 @@ const asks = {
     `,
     lebron: 'Voici la fiche technique de Lebron James:',
     harden: 'Voici la fiche technique de Harden James:',
-    durant: 'Voici la fiche technique de Durant Kevin:'
+    durant: 'Voici la fiche technique de Durant Kevin:',
+    displayChat: 'Tchat affiché.',
+    hideChat: 'Tchat caché',
+    hidePlayerSheet: 'la fiche technique a été cachée'
 }
 
 const intentResponse = options => conv.ask(new ImmersiveResponse(options));
 
-app.intent('Welcome', conv => {
-    conv.ask(asks.welcome);
-    intentResponse({
-        url: `https://${firebaseConfig.projectId}.firebaseapp.com`,
-    })
+const appIntent = (intent, ask, responseOptions) => app.intent(intent, conv => {
+    conv.ask(ask);
+    intentResponse(responseOptions)
 });
 
-app.intent('LebronJames', conv => {
-    conv.ask(asks.lebron);
-    intentResponse({
-        state: {
-            LebronJames: true,
-        }
-    })    
+// ===== TEXTS =====
+appIntent('Welcome', asks.welcome, {
+    url: `https://${firebaseConfig.projectId}.firebaseapp.com`,
 });
 
-app.intent('HardenJames', (conv) => {
-    conv.ask(asks.harden);
-    intentResponse({
-        state: {
-            HardenJames: true,
-        }
-    })  
+// ===== PLAYERS =====
+appIntent('LebronJames', asks.lebron, {
+    state: {
+        isPlayerSheetDisplayed: true,
+        LebronJames: true,
+    }
 });
-app.intent('DurantKevin', (conv) => {
-    conv.ask(asks.durant);
-    intentResponse({
-        state: {
-            DurantKevin: true,
-        }
-    })  
+appIntent('HardenJames', asks.harden, {
+    state: {
+        isPlayerSheetDisplayed: true,
+        HardenJames: true,
+    }
 });
-  // app.intent('displayChat', (conv) => {
-  //   conv.ask(`chat displayed:`);
-  //   conv.ask(new ImmersiveResponse({
-  //     state: {
-  //       chat: true,
-  //     },
-  //   }
-  // ));
-  // });
+appIntent('DurantKevin', asks.durant, {
+    state: {
+        isPlayerSheetDisplayed: true,
+        DurantKevin: true,
+    }
+});
+appIntent('HidePlayerSheet', asks.hidePlayerSheet, {
+    state: {
+        isPlayerSheetDisplayed: false
+    }
+});
 
-  // app.intent('hideChat', (conv) => {
-  //   conv.ask(`chat hidden:`);
-  //   conv.ask(new ImmersiveResponse({
-  //     state: {
-  //       chat: false,
-  //     },
-  //   }
-  // ));
-  // });
+// ===== CHAT =====
+appIntent('DisplayChat', asks.displayChat, {
+    state: {
+        isChatDisplayed: true
+    }
+});
+appIntent('HideChat', asks.hideChat, {
+    state: {
+        isChatDisplayed: false
+    }
+});
 
 // app.intent('fallback', (conv) => {
 //   conv.ask(`I don't understand. You can change my color or pause spinning.`);
-//   conv.ask(new ImmersiveResponse({
-//     state: {
-//       query: conv.query,
-//     },
-//   }));
-// });
-
-// app.intent('color', (conv, {color}) => {
-//   if (color in tints) {
-//     conv.ask(`Ok, I changed my color to ${color}. What else?`);
-//     conv.ask(new ImmersiveResponse({
-//       state: {
-//         tint: tints[color],
-//       },
-//     }));
-//     return;
-//   }
-//   conv.ask(`Sorry, I don't know that color. ` +
-//     `I only know what red, blue, and green are.`);
 //   conv.ask(new ImmersiveResponse({
 //     state: {
 //       query: conv.query,
