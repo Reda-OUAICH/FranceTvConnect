@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Welcome to Firebase Hosting</title>
+    <title>France TV Connect</title>
 
     <!-- update the version number as needed -->
     <script defer src="/__/firebase/6.3.0/firebase-app.js"></script>
@@ -14,16 +14,24 @@
     <script defer src="/__/firebase/6.3.0/firebase-storage.js"></script>
     <!-- initialize the SDK after all desired features are loaded -->
     <script defer src="/__/firebase/init.js"></script>
+    <link rel="stylesheet" href="./styles/master.css">
     <!-- Load Assistant Canvas CSS and JavaScript -->
     <link rel="stylesheet" href="https://www.gstatic.com/assistant/immersivecanvas/css/styles.css">
     <script src="https://www.gstatic.com/assistant/immersivecanvas/js/immersive_canvas_api.js"></script>
   </head>
   <body>
-    <section id="welcomePage" class="welcome">
-
-    </section>
-    <img id="playerStat" style="height:500px; width: auto" src="" alt="Statistique">
-    <iframe src="http://ulysse-projects.golem.ai:8082/" frameborder="0"></iframe>
+    <section 
+        id="welcomePage"
+        class="welcome"
+    ></section>
+    <img 
+        id="playerStat"
+        src 
+        alt="Statistiques">
+    <iframe 
+        src="http://ulysse-projects.golem.ai:8082/" 
+        frameborder="0"
+    ></iframe>
     <!-- <section id="chat" class="chat_hidden">
         <iframe
             id="chat_iframe"            
@@ -34,6 +42,6 @@
         </iframe>
     </section> -->
 
-    <script src="js/main.js"></script>
+    <script src="scripts/main.js"></script>
   </body>
 </html>
