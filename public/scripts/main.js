@@ -1,14 +1,11 @@
  const welcomePage = document.querySelector("#welcomePage");
  const playerStat = document.querySelector("#playerStat");
- const body = document.querySelector('body');
 
  // register assistant canvas callbacks
  const callbacks = {
     onUpdate(state) {
         console.log('onUpdate', JSON.stringify(state));
-        if ('Welcome' in state) {
-            welcomePage.style.display = "block";
-        }
+
         if ('LebronJames' in state) {
             playerStat.src = "./assets/imgs/lebron-stats.jpg";
         }
