@@ -2,11 +2,7 @@
 --- 
 ## Kekonvafer:
 
-- Src image []
-- Le template de bienvenidos []
-- Le chat ( à integrer )( ULYYYYYSSE connard.) []
+- Src image [x]
+- Le template de bienvenidos [x]
+- Le chat ( à integrer )( ULYYYYYSSE connard.) [~]
 - Transition []
-
-je rigole pas écoute sa voix
-ouioui
-tu vas t'en remettre tkt
