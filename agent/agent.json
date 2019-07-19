@@ -12,35 +12,7 @@
     "welcomeIntentSignInRequired": false,
     "startIntents": [
       {
-        "intentId": "2b0e85d9-c20e-4cbc-bb77-f225d359cda5",
-        "signInRequired": false
-      },
-      {
-        "intentId": "d3a214d0-d918-4090-95f6-b44b398b27d0",
-        "signInRequired": false
-      },
-      {
-        "intentId": "9154336e-d091-4814-bc6b-02c84552bec4",
-        "signInRequired": false
-      },
-      {
-        "intentId": "8874b573-3e48-47aa-a16a-137aa65cf47e",
-        "signInRequired": false
-      },
-      {
         "intentId": "25c86063-4f60-496f-97a1-11e5fe1ca4bf",
-        "signInRequired": false
-      },
-      {
-        "intentId": "be343e4a-ed5a-4f8b-870d-137f1c472785",
-        "signInRequired": false
-      },
-      {
-        "intentId": "de616abf-b95d-4d0f-8d14-8fbf900461b9",
-        "signInRequired": false
-      },
-      {
-        "intentId": "e6d8a3e1-7745-4790-be43-f0de55b04c3e",
         "signInRequired": false
       },
       {
@@ -48,14 +20,32 @@
         "signInRequired": false
       },
       {
+        "intentId": "be343e4a-ed5a-4f8b-870d-137f1c472785",
+        "signInRequired": false
+      },
+      {
         "intentId": "c4595e76-a960-4fa3-9d19-04871cf23d65",
+        "signInRequired": false
+      },
+      {
+        "intentId": "cb10546d-71d3-4b6b-9134-cbf27dac9fb3",
+        "signInRequired": false
+      },
+      {
+        "intentId": "de616abf-b95d-4d0f-8d14-8fbf900461b9",
+        "signInRequired": false
+      },
+      {
+        "intentId": "ebb4266d-31b8-41cb-8ba8-9c55c595cc9a",
+        "signInRequired": false
+      },
+      {
+        "intentId": "d278b64f-593e-445d-8ee6-daa263b0bd7c",
         "signInRequired": false
       }
     ],
     "systemIntents": [],
-    "endIntentIds": [
-      "9154336e-d091-4814-bc6b-02c84552bec4"
-    ],
+    "endIntentIds": [],
     "oAuthLinking": {
       "required": false,
       "providerId": "",

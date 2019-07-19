@@ -3,10 +3,14 @@
     width: 100%;
     height: 75%;
     display: none;
+    overflow: hidden;
 }
 
 #chat {
-    display: none;
+    display: none; 
+    border: 2px red solid;
+    width: 100%;
+    height: 70%;
 }
 .homePage {
     width: 100%;
@@ -20,7 +24,4 @@
 .logo {
     width: 200px;
     height: auto;
-}
-.chat {
-    border: 2px red solid;
 }

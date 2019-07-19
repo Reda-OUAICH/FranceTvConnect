@@ -34,6 +34,7 @@ const asks = {
     `,
     lebron: 'Voici la fiche technique de Lebron James:',
     harden: 'Voici la fiche technique de Harden James:',
+    hardenMore: 'plus détaillé:',
     durant: 'Voici la fiche technique de Durant Kevin:',
     displayChat: 'Tchat affiché.',
     hideChat: 'Tchat caché',
@@ -49,30 +50,47 @@ const appIntent = (intent, ask, responseOptions) => app.intent(intent, conv => {
 appIntent('Welcome', asks.welcome, {
     url: `https://${firebaseConfig.projectId}.firebaseapp.com`,
 });
+
 appIntent('Instructions', asks.instructions, {});
 
 // ===== PLAYERS =====
 appIntent('LebronJames', asks.lebron, {
     state: {
-        isPlayerSheetDisplayed: true,
         LebronJames: true,
     }
 });
+appIntent('LebronJamesMore', {
+     state: {
+         LebronJamesMore: true
+     }
+});
+
 appIntent('HardenJames', asks.harden, {
     state: {
-        isPlayerSheetDisplayed: true,
         HardenJames: true,
     }
 });
+
+appIntent('HardenJamesMore', asks.hardenMore, {
+    state: {
+        HardenJamesMore: true
+    }
+});
+
 appIntent('DurantKevin', asks.durant, {
     state: {
-        isPlayerSheetDisplayed: true,
         DurantKevin: true,
     }
 });
+appIntent('DurantKevinMore', {
+     state: {
+         DurantKevinMore: true,
+     }
+});
+
 appIntent('HidePlayerSheet', asks.hidePlayerSheet, {
     state: {
-        isPlayerSheetDisplayed: false
+        HidePlayerSheet: true
     }
 });
 

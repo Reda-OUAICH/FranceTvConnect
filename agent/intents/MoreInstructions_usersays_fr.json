@@ -1,0 +1,122 @@
+[
+  {
+    "id": "a33f6473-6feb-4996-aaaf-da427c998fd0",
+    "data": [
+      {
+        "text": "plus d\u0027info",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "2c881904-4638-4f91-84a4-050b0229b88c",
+    "data": [
+      {
+        "text": "montre-moi plus de résultats",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "203fa12b-f3cd-492e-90d9-3641f66c6cc4",
+    "data": [
+      {
+        "text": "y a-t-il plus de résultats",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d874c740-98c3-416b-bbd1-a16781c3ae46",
+    "data": [
+      {
+        "text": "quoi d\u0027autre",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 2,
+    "updated": 0
+  },
+  {
+    "id": "e6ca112b-caa5-4cc1-a350-b3d7946d4054",
+    "data": [
+      {
+        "text": "autres résultats",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "0f6f4fd3-18b5-4012-9f19-ff3856c29244",
+    "data": [
+      {
+        "text": "dis-m\u0027en plus",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 2,
+    "updated": 0
+  },
+  {
+    "id": "3d596f57-c25c-4d43-a7f2-3278ee446955",
+    "data": [
+      {
+        "text": "tout le reste",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 2,
+    "updated": 0
+  },
+  {
+    "id": "41f758ce-6282-4cd9-8a2e-424b09e30098",
+    "data": [
+      {
+        "text": "plus de résultats",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ef12ce5e-7007-4230-99fc-dff96476a847",
+    "data": [
+      {
+        "text": "plus",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 2,
+    "updated": 0
+  },
+  {
+    "id": "3c22b4d7-8973-46f0-a19b-7b88f3e19dba",
+    "data": [
+      {
+        "text": "plus d\u0027informations",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

@@ -1,9 +1,9 @@
 [
   {
-    "id": "4efb8551-1810-4034-9d5c-8a001f16ed0c",
+    "id": "6ee0bb5f-4da7-45ce-b7e5-b2d387c9b3fd",
     "data": [
       {
-        "text": "chat off",
+        "text": "No tchat",
         "userDefined": false
       }
     ],
@@ -12,10 +12,10 @@
     "updated": 0
   },
   {
-    "id": "034e58ef-dc9f-4a62-8083-7bb2e51300f6",
+    "id": "dc863380-625a-42f8-bf78-b03a3f834893",
     "data": [
       {
-        "text": "éteint chat",
+        "text": "Tchat off",
         "userDefined": false
       }
     ],
@@ -24,10 +24,118 @@
     "updated": 0
   },
   {
-    "id": "b32e92d6-cfaf-432c-bf3a-592a684d2805",
+    "id": "5b0407e2-6bb6-47ec-9bc8-d2f84fa25305",
     "data": [
       {
-        "text": "ferme chat",
+        "text": "Éteins le tchat",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "53e9eb72-f3ac-4592-a9ca-000deb9127be",
+    "data": [
+      {
+        "text": "Éteins-moi le tchat",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "0c215d0f-b3d2-4473-a22f-1c545614c444",
+    "data": [
+      {
+        "text": "Cache le tchat",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "38bf7492-c17f-4a42-b84d-35295b42e0c2",
+    "data": [
+      {
+        "text": "Cache-moi le tchat",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "5b02f4ea-94fd-4534-9c83-433c2e200a38",
+    "data": [
+      {
+        "text": "No chat",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "082e18ca-3c94-4bc8-a713-8b04cb5bd31f",
+    "data": [
+      {
+        "text": "Chat off",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d37e9c80-9426-4afc-879e-b4d49a913932",
+    "data": [
+      {
+        "text": "Éteins le chat",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "21398c8b-0fbb-48c1-a24d-d7a380ccc344",
+    "data": [
+      {
+        "text": "Éteins-moi le chat",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "48cecb96-e122-426a-9af4-ddf0f7bc6b4d",
+    "data": [
+      {
+        "text": "Cache le chat",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "5296bf5b-62db-4cb1-aff3-ce753b1febdd",
+    "data": [
+      {
+        "text": "Cache-moi le chat",
         "userDefined": false
       }
     ],

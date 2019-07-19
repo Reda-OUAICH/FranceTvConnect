@@ -1,6 +1,6 @@
 {
-  "id": "d3a214d0-d918-4090-95f6-b44b398b27d0",
-  "name": "Default Alpha Intent",
+  "id": "d278b64f-593e-445d-8ee6-daa263b0bd7c",
+  "name": "SwitchScreen",
   "auto": true,
   "contexts": [],
   "responses": [
@@ -13,18 +13,6 @@
           "type": 0,
           "lang": "fr",
           "speech": []
-        },
-        {
-          "type": 4,
-          "lang": "fr",
-          "payload": {
-            "messages": [
-              {
-                "speech": "Text response",
-                "type": 0.0
-              }
-            ]
-          }
         }
       ],
       "defaultResponsePlatforms": {},
@@ -33,7 +21,7 @@
   ],
   "priority": 500000,
   "webhookUsed": true,
-  "webhookForSlotFilling": true,
+  "webhookForSlotFilling": false,
   "fallbackIntent": false,
   "events": []
 }

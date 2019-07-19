@@ -1,18 +1,23 @@
 {
-  "id": "8874b573-3e48-47aa-a16a-137aa65cf47e",
-  "name": "Default SelectMusic Intent",
+  "id": "5fef2e3f-ca38-4f7a-b686-ca7f43828558",
+  "parentId": "be343e4a-ed5a-4f8b-870d-137f1c472785",
+  "rootParentId": "be343e4a-ed5a-4f8b-870d-137f1c472785",
+  "name": "HardenJamesMore",
   "auto": true,
-  "contexts": [],
+  "contexts": [
+    "HardenJames-followup"
+  ],
   "responses": [
     {
       "resetContexts": false,
+      "action": "HardenJames.HardenJames-more",
       "affectedContexts": [],
       "parameters": [],
       "messages": [
         {
           "type": 0,
           "lang": "fr",
-          "speech": []
+          "speech": "Voici plus d\u0027informations sur Harden James:"
         }
       ],
       "defaultResponsePlatforms": {},

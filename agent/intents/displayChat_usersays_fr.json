@@ -1,9 +1,9 @@
 [
   {
-    "id": "0778cd70-b5a9-4f55-bb17-8ed5902a2b0d",
+    "id": "54c96730-e330-4fd0-8d30-b38f5d5c9468",
     "data": [
       {
-        "text": "chat on",
+        "text": "Tchat",
         "userDefined": false
       }
     ],
@@ -12,10 +12,10 @@
     "updated": 0
   },
   {
-    "id": "f7cc4033-28bd-4bf7-b9fd-7ed314d66f63",
+    "id": "8cf2e5aa-8a26-48e9-b535-b3c19489ee0e",
     "data": [
       {
-        "text": "démarre chat",
+        "text": "Tchat on",
         "userDefined": false
       }
     ],
@@ -24,10 +24,166 @@
     "updated": 0
   },
   {
-    "id": "da968814-f850-4570-9466-6685911adbf5",
+    "id": "0260e282-c22c-4079-a1b3-7cae09d44d60",
     "data": [
       {
-        "text": "affiche chat",
+        "text": "Allume le tchat",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "18a1b568-e6f2-4dc8-9e6e-872977ba19df",
+    "data": [
+      {
+        "text": "Allume-moi le tchat",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "0b6eb865-0d2a-436e-a6f3-f46536395e30",
+    "data": [
+      {
+        "text": "Montre le tchat",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "1bb74cf7-b779-4079-a455-598a7e3055a6",
+    "data": [
+      {
+        "text": "Montre-moi le tchat",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "25ef2072-5b90-43e4-a6bb-908cf9323961",
+    "data": [
+      {
+        "text": "Affiche le tchat",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "6b227cc6-c1fd-4adb-87dc-e2d558740aa8",
+    "data": [
+      {
+        "text": "Affiche-moi le tchat",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "72b3b8ae-19e6-4abd-9b53-3775dcbebbb2",
+    "data": [
+      {
+        "text": "Chat",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b237c75d-5def-4f37-9390-71b96b630de0",
+    "data": [
+      {
+        "text": "Chat on",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f0c0bfb5-ae57-45ce-b4d4-eb5166a8de7f",
+    "data": [
+      {
+        "text": "Allume le chat",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "87b152d6-ad70-47a0-b5f1-54baf5bcbd3c",
+    "data": [
+      {
+        "text": "Allume-moi le chat",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "48985603-6379-4dc9-a959-b66264861f76",
+    "data": [
+      {
+        "text": "Montre le chat",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a6226fd8-c6e1-473f-9188-8020f5838418",
+    "data": [
+      {
+        "text": "Montre-moi le chat",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c516964c-8c89-4e24-97de-6f72ed1132ec",
+    "data": [
+      {
+        "text": "Affiche le chat",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c7adab33-36f8-47b8-a067-a0c11ffcac4b",
+    "data": [
+      {
+        "text": "Affiche-moi le chat",
         "userDefined": false
       }
     ],

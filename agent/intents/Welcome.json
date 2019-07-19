@@ -12,14 +12,14 @@
         {
           "type": 0,
           "lang": "fr",
-          "speech": []
+          "speech": "Pour accéder aux instructions: dites \"Instructions\"."
         }
       ],
       "defaultResponsePlatforms": {},
       "speech": []
     }
   ],
-  "priority": 500000,
+  "priority": 250000,
   "webhookUsed": true,
   "webhookForSlotFilling": false,
   "fallbackIntent": false,

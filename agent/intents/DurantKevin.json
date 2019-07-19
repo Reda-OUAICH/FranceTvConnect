@@ -6,7 +6,13 @@
   "responses": [
     {
       "resetContexts": false,
-      "affectedContexts": [],
+      "affectedContexts": [
+        {
+          "name": "DurantKevin-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
       "parameters": [
         {
           "id": "c25339c5-ad1b-4c9c-a24f-451ca7edba5f",
@@ -20,7 +26,13 @@
           "isList": false
         }
       ],
-      "messages": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "fr",
+          "speech": "Voici la fiche technique de Durant Kevin:"
+        }
+      ],
       "defaultResponsePlatforms": {},
       "speech": []
     }

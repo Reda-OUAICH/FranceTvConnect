@@ -1,0 +1,32 @@
+{
+  "id": "a9dd0a34-946f-479b-bcb0-ace041f8499f",
+  "parentId": "ebb4266d-31b8-41cb-8ba8-9c55c595cc9a",
+  "rootParentId": "ebb4266d-31b8-41cb-8ba8-9c55c595cc9a",
+  "name": "MoreInstructions",
+  "auto": true,
+  "contexts": [
+    "Instructions-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Instructions.Instructions-more",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "fr",
+          "speech": "Instructions Instructions Instructions Instructions Instructions Instructions Instructions Instructions Instructions Instructions"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

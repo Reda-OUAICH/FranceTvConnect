@@ -1,0 +1,74 @@
+[
+  {
+    "id": "66fc3251-d7d3-43cf-9915-9d6b8182ccfd",
+    "data": [
+      {
+        "text": "Cache la fiche technique",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "1a0ab996-edd0-4f10-bc22-e97e82d3051b",
+    "data": [
+      {
+        "text": "Cache-moi la fiche technique",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "fe0909ad-2df5-44c3-9335-fdd9fc717f83",
+    "data": [
+      {
+        "text": "Cache la fiche joueur",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "59e21cb3-125e-4b55-a691-8e9da4ad5c2a",
+    "data": [
+      {
+        "text": "Cache la fiche du joueur",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b8410ec7-f446-4b18-b164-a33d6f9fc18e",
+    "data": [
+      {
+        "text": "Cache-moi la fiche joueur",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "113e3373-234f-40d1-ad69-5383b0fb4b9f",
+    "data": [
+      {
+        "text": "Cache-moi la fiche du joueur",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

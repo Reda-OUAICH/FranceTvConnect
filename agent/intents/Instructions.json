@@ -1,0 +1,33 @@
+{
+  "id": "ebb4266d-31b8-41cb-8ba8-9c55c595cc9a",
+  "name": "Instructions",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "Instructions-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "fr",
+          "speech": "Pour voir la fiche technique d\u0027un joueur, dites: \"Fiche technique de Lebron James\".\nPour cacher la fiche technique, dites: \"Cacher la fiche technique\"\n\nPour afficher le tchat, dites: \"Affiche le tchat\".\nPour cacher le tchat, dites: \"Cache le tchat\"."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 250000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

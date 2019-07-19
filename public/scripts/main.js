@@ -4,7 +4,7 @@
  const homepage = document.querySelector('.homePage');
 
  // register assistant canvas callbacks
- const callbacks = {    
+ const callbacks = {
     onUpdate(state) {
         console.log('onUpdate', JSON.stringify(state));
 
@@ -19,11 +19,20 @@
             playerStat.src = './assets/imgs/lebron-stats.jpg';
         }
 
+        if ('LebronJamesMore' in state) {
+            playerStat.src = './assets/imgs/lebron-more.jpg';
+        }
+
         if ('DurantKevin' in state) {
             homepage.style.display = 'none'
             playerStat.style.display = 'block';
             playerStat.src = './assets/imgs/durant-stats.jpg';
         }
+
+        if ('DurantKevinMore' in state) {
+            playerStat.src = './assets/imgs/durant-more.jpg';
+        }
+
 
         if ('HardenJames' in state) {
             homepage.style.display = 'none'
@@ -31,15 +40,23 @@
             playerStat.src = './assets/imgs/harden-stats.jpg';
         }
 
+        if ('HardenJamesMore' in state) {
+            playerStat.src = './assets/imgs/harden-more.jpg';
+        }
+        if ('HidePlayerSheet' in state) {
+            homepage.style.display = 'block'
+            playerStat.style.display = 'none';
+        }
+
         if ('DisplayChat' in state) {
             homepage.style.display = 'none'
             chat.style.display = 'block';
-            document.querySelector('h1').innerHTML = 'CHAT ENABLED'
+        } else {
+            chat.style.display = 'none';
         }
 
         if ('HideChat' in state) {
             chat.style.display = 'none';
-            document.querySelector('h1').innerHTML = 'CHAT ENABLED'
         }
     },
  };

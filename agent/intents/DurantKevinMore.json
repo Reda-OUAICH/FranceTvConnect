@@ -1,18 +1,23 @@
 {
-  "id": "e6d8a3e1-7745-4790-be43-f0de55b04c3e",
-  "name": "start",
+  "id": "e64d1606-3f88-4977-ae49-837bacec18d3",
+  "parentId": "25c86063-4f60-496f-97a1-11e5fe1ca4bf",
+  "rootParentId": "25c86063-4f60-496f-97a1-11e5fe1ca4bf",
+  "name": "DurantKevinMore",
   "auto": true,
-  "contexts": [],
+  "contexts": [
+    "DurantKevin-followup"
+  ],
   "responses": [
     {
       "resetContexts": false,
+      "action": "DurantKevin.DurantKevin-more",
       "affectedContexts": [],
       "parameters": [],
       "messages": [
         {
           "type": 0,
           "lang": "fr",
-          "speech": []
+          "speech": "Voici plus d\u0027informations sur Durant Kevin:"
         }
       ],
       "defaultResponsePlatforms": {},

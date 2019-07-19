@@ -1,6 +1,6 @@
 {
   "id": "3b22b498-a4b0-4b28-9719-708069a0e053",
-  "name": "displayChat",
+  "name": "DisplayChat",
   "auto": true,
   "contexts": [],
   "responses": [
@@ -12,14 +12,14 @@
         {
           "type": 0,
           "lang": "fr",
-          "speech": []
+          "speech": "Chat affiché."
         }
       ],
       "defaultResponsePlatforms": {},
       "speech": []
     }
   ],
-  "priority": 500000,
+  "priority": 750000,
   "webhookUsed": true,
   "webhookForSlotFilling": false,
   "fallbackIntent": false,

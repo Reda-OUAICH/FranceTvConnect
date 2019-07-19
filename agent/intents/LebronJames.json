@@ -6,7 +6,13 @@
   "responses": [
     {
       "resetContexts": false,
-      "affectedContexts": [],
+      "affectedContexts": [
+        {
+          "name": "LebronJames-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
       "parameters": [
         {
           "id": "fb1c66b8-d227-4435-a6cb-4b1c4c24cbba",
@@ -20,7 +26,13 @@
           "isList": false
         }
       ],
-      "messages": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "fr",
+          "speech": "Voici la fiche technique de Lebron James:"
+        }
+      ],
       "defaultResponsePlatforms": {},
       "speech": []
     }

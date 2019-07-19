@@ -1,0 +1,50 @@
+[
+  {
+    "id": "1ef53ff1-31f5-4275-b17c-0553e1ef463c",
+    "data": [
+      {
+        "text": "Aide-moi",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "67eeb921-9546-406b-8dc6-523cc6bdc13d",
+    "data": [
+      {
+        "text": "Aide",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d5a2b963-144a-4c79-a515-0dbc6da71286",
+    "data": [
+      {
+        "text": "Donne-moi des intructions",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c64a09e5-63dc-4ed3-aeb7-84d023e5f1d0",
+    "data": [
+      {
+        "text": "Instructions",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

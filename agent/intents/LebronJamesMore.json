@@ -1,25 +1,30 @@
 {
-  "id": "c4595e76-a960-4fa3-9d19-04871cf23d65",
-  "name": "HideChat",
+  "id": "84e818a6-b81e-432f-9387-e7c699d47954",
+  "parentId": "de616abf-b95d-4d0f-8d14-8fbf900461b9",
+  "rootParentId": "de616abf-b95d-4d0f-8d14-8fbf900461b9",
+  "name": "LebronJamesMore",
   "auto": true,
-  "contexts": [],
+  "contexts": [
+    "LebronJames-followup"
+  ],
   "responses": [
     {
       "resetContexts": false,
+      "action": "LebronJames.LebronJames-more",
       "affectedContexts": [],
       "parameters": [],
       "messages": [
         {
           "type": 0,
           "lang": "fr",
-          "speech": "Chat caché."
+          "speech": "Voici plus d\u0027informations sur Lebron James:"
         }
       ],
       "defaultResponsePlatforms": {},
       "speech": []
     }
   ],
-  "priority": 750000,
+  "priority": 500000,
   "webhookUsed": true,
   "webhookForSlotFilling": false,
   "fallbackIntent": false,
