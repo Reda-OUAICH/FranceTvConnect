@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Chat TV</title>
+</head>
+
+<body>
+    <video autoplay loop poster="assets/bg.png" id="video">
+        <source src="assets/nba.Ogg" type="video/ogg">
+        <source src="assets/nba.mp4" type="video/mp4">
+    </video>
+
+    <div class="container">
+        <div class="chat">
+        </div>
+    </div>
+
+    <div class="microphone hidden">
+        <img src="assets/micro.png">
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="https://www.WebRTC-Experiment.com/RecordRTC.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/client.js"></script>
+</body>
+
+</html>
