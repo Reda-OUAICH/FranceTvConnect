@@ -26,6 +26,10 @@ const app = dialogflow({ debug: true });
 const asks = {
     welcome: 'Pour accéder aux instructions: dites "Instructions".',
     instructions: `
+        Vous pouvez à la fois voir la fiche technique d'un joueur et afficher le chat en direct.
+        Pour plus d'informations, dites "plus".
+    `,
+    instructionsMore: `
         Pour voir la fiche technique d'un joueur, dites: "Fiche technique de Lebron James".
         Pour cacher la fiche technique, dites: "Cacher la fiche technique"
         
@@ -34,7 +38,6 @@ const asks = {
     `,
     lebron: 'Voici la fiche technique de Lebron James:',
     harden: 'Voici la fiche technique de Harden James:',
-    hardenMore: 'plus détaillé:',
     durant: 'Voici la fiche technique de Durant Kevin:',
     displayChat: 'Tchat affiché.',
     hideChat: 'Tchat caché',
