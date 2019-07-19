@@ -1,4 +1,27 @@
 #playerStat {
-    height: 00px; 
-    width: auto
+    background: lightseagreen;
+    border: 2px red solid;
+    height: 200px; 
+    width: 200px;
+}
+
+#welcomePage {
+    background: cyan;
+    border: 2px red solid;
+    width: 200px;
+    height: 200px;
+}
+
+.welcomeHeader {
+    background: pink;
+    border: 2px red solid;
+    display: flex;
+    margin: 50px;
+}
+
+.logo {
+    background: purple;
+    border: 2px red solid;
+    width: 200px;
+    height: auto;
 }

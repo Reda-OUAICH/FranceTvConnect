@@ -79,11 +79,13 @@ appIntent('HidePlayerSheet', asks.hidePlayerSheet, {
 // ===== CHAT =====
 appIntent('DisplayChat', asks.displayChat, {
     state: {
+        DisplayChat: true,
         isChatDisplayed: true
     }
 });
 appIntent('HideChat', asks.hideChat, {
     state: {
+        HideChat: true,
         isChatDisplayed: false
     }
 });
