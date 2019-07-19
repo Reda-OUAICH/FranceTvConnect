@@ -29,5 +29,5 @@
             document.querySelector('h1').innerHTML = "CHAT ENABLED"
         }
     },
-    };
+ };
  assistantCanvas.ready(callbacks);
